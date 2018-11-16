@@ -1,6 +1,6 @@
 # Nixie-clock-alpha
 
-![1](D:\Git\Nixie-clock-alpha\1.png)
+![1](./1.png)
 
 辉光管时钟
 
