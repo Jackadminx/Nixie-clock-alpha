@@ -50,17 +50,42 @@ K155ID1/SN74141N辉光管驱动IC
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+### tree
+```
+├─Hardware
+│  ├─3DPrint
+│  ├─PCB
+│  └─Schematics
+└─Software
+    └─Nixie-alpha-code
+        ├─include
+        ├─lib
+        │  ├─DS3232RTC_ID78
+        │  │  ├─examples
+        │  │  │  ├─alarm_ex1
+        │  │  │  ├─alarm_ex2
+        │  │  │  ├─alarm_ex3
+        │  │  │  ├─alarm_ex4
+        │  │  │  ├─alarm_ex5
+        │  │  │  ├─alarm_ex6
+        │  │  │  ├─alarm_ex7
+        │  │  │  ├─SetSerial
+        │  │  │  ├─TimeRTC
+        │  │  │  └─tiny3232_KnockBang
+        │  │  └─src
+        │  └─Time_ID44
+        │      └─examples
+        │          ├─Processing
+        │          │  └─SyncArduinoClock
+        │          ├─TimeArduinoDue
+        │          ├─TimeGPS
+        │          ├─TimeNTP
+        │          ├─TimeNTP_ESP8266WiFi
+        │          ├─TimeRTC
+        │          ├─TimeRTCLog
+        │          ├─TimeRTCSet
+        │          ├─TimeSerial
+        │          ├─TimeSerialDateStrings
+        │          └─TimeTeensy3
+        └─src
+```
